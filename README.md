@@ -8,6 +8,8 @@ A minimal Webpack template for starting new web development projects with both d
 - CSS extraction and minification in production
 - HTML file injection
 - Development and production configurations
+- ESLint for code linting
+- Prettier for code formatting
 
 ## Installation
 
@@ -40,18 +42,6 @@ This will use `webpack-dev-server` to bundle your files, and any changes to sour
 
 - `npm run start`: Starts the development server with live reloading.
 - `npm run build`: Creates a production-ready build with minified JavaScript and CSS.
-
-## Project Structure
-
-```
-webpack-template/
-├── src/
-│   ├── index.js          # Entry point for JavaScript
-│   └── index.html        # HTML template
-├── dist/                 # Output folder for the production build
-├── webpack.config.js     # Webpack configuration file
-└── package.json          # NPM dependencies and scripts
-```
 
 ## Customization
 
